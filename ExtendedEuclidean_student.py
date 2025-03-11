@@ -34,7 +34,11 @@ def eea(r0, r1):
 
 def inverse(r0, r1):
     # Complete this function
-    return 0
+    # return 0
+    result = eea(r0, r1)
+    if result[0] != 1:
+        return None
+    return result[2] % r0
 
 
 def main():
