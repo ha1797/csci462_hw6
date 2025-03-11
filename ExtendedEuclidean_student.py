@@ -20,7 +20,7 @@ def eea(r0, r1):
         q = r0//r1
         r2 = r0 - q*r1
         if r2 == 0:
-            return (r1, s1, t1)
+            return r1, s1, t1
         s2 = s0 - q*s1
         t2 = t0 - q*t1
 
